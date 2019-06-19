@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'PingFang SC ExtraLight';
+  src: url(../font/PingFang-SC-ExtraLight.otf);
+}
+
+/* 标题部分 */
+.entry-section-topic {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 60px;
+  color: #fff;
+  text-align: center;
+  font-family: 'PingFang SC ExtraLight';
+  z-index: 99;
+}
+
+.entry-section-topic div:first-child {
+  font-size: 106px;
+  letter-spacing: 6px;
+  font-weight: 200;
+  line-height: 110px;
+}
+
+.swiper-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-full {
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-full::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .2);
+}
+
+/* 进入网站按钮 */
+.entry-section-btn {
+  position: relative;
+  z-index: 99;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.entry-section-btn button {
+  color: #fff;
+  font-family: 'PingFang SC ExtraLight';
+  background: rgba(0, 0, 0, 0);
+  width: 122px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 36px;
+  cursor: pointer;
+}
+
+/* 功能卡片 */
+.entry-section-card {
+  position: relative;
+  z-index: 99;
+  width: 480px;
+  margin: 0 auto;
+  padding-top: 40px;
+  font-family: 'PingFang SC ExtraLight';
+  overflow: hidden;
+}
+
+.entry-section-card nav {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.entry-section-card nav a {
+  width: 160px;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 60px;
+  text-decoration: none;
+}
+
+.entry-section-card nav .active {
+  color: #000;
+  background: rgba(255, 255, 255, .8);
+}
+
+/* 标签内容 */
+.entry-section-card .tab-content {
+  width: 100%;
+  height: 240px;
+  background: rgba(255, 255, 255, .8);
+}
+
+#tabs-1,
+#tabs-3 {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+.entry-section-card-tabs-1-content {
+  padding-top: 15px;
+  width: 420px;
+  margin: 0;
+  text-align: justify;
+}
+
+
+.entry-section-card-tabs-1-auther {
+  height: 63px;
+  line-height: 63px;
+  text-align: right;
+}
+
+#tabs-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#tabs-3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tabs-3 div span {
+  padding-top: 6px;
+  font-size: 14px;
+}
+
+/* 主页 */
+
