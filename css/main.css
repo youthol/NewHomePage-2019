@@ -50,6 +50,33 @@
   background: rgba(0, 0, 0, .2);
 }
 
+.entry-section-bg-info {
+  color: #fff;
+  font-size: 12px;
+  position: fixed;
+  bottom: 10px;
+  right: 53px;
+  height: 30px;
+  z-index: 100;
+}
+
+.entry-section-bg-info p {
+  display: inline-block;
+  line-height: 30px;
+}
+
+.entry-section-bg-change {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: top;
+}
+
+.entry-section-bg-change img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
 /* 进入网站按钮 */
 .entry-section-btn {
   position: relative;
@@ -75,7 +102,7 @@
   z-index: 99;
   width: 480px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 46px;
   font-family: 'PingFang SC ExtraLight';
   overflow: hidden;
 }
@@ -148,3 +175,56 @@
 
 /* 主页 */
 
+.home-top {
+  height: 64px;
+  padding: 4px 16px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .home-top {
+    width: ;
+    margin: 0 auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .home-top {
+    width: ;
+    margin: 0 auto;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home-top {
+    width: ;
+    margin: 0 auto;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .home-top {
+    width: 1199px;
+    margin: 0 auto;
+  }
+}
+
+.home-top-logo {
+  height: 40px;
+}
+
+.home-top-right {
+  float: right;
+}
+
+.home-top-right input {
+  border: 1px solid ;
+}
+
+.home-top-setting {
+  width: 32px;
+  height: 32px;
+}

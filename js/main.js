@@ -39,9 +39,14 @@ var initInfo = {
 
 var mySwiper = new Swiper(".swiper-container", {
   autoplay: true, //可选选项，自动滑动
+  loop : true,
   effect: "fade",
   speed: 600,
   autoplay: {
     delay: 4000
+  },
+  navigation: {
+    nextEl: ".entry-bg-next",
+    prevEl: ".entry-bg-prev"
   }
 });
