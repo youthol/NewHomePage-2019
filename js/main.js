@@ -37,7 +37,7 @@ var initInfo = {
   }
 };
 
-var mySwiper = new Swiper(".swiper-container", {
+var indexSwiper = new Swiper("#index-banner", {
   autoplay: true, //可选选项，自动滑动
   loop : true,
   effect: "fade",
@@ -48,5 +48,33 @@ var mySwiper = new Swiper(".swiper-container", {
   navigation: {
     nextEl: ".index-bg-next",
     prevEl: ".index-bg-prev"
+  }
+});
+
+var homeSwiper = new Swiper("#home-banner-main", {
+  autoplay: true, //可选选项，自动滑动
+  loop: true,
+  speed: 600,
+  autoplay: {
+    delay: 4000
+  },
+  // 如果需要分页器
+  pagination: {
+    el: ".swiper-pagination"
+  },
+
+  // 如果需要前进后退按钮
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  }
+});
+
+var homeSwiper = new Swiper("#home-banner-small", {
+  autoplay: true, //可选选项，自动滑动
+  loop: true,
+  speed: 600,
+  autoplay: {
+    delay: 4000
   }
 });
