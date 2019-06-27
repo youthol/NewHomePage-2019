@@ -1,4 +1,4 @@
-<!-- 主页 -->
+<!-- 启动页 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -17,24 +17,97 @@
   <script src="./js/jquery-3.0.0.min.js"></script>
 </head>
 
-<body>
-  <!-- 导航栏 -->
-  <header class="container-fluid">
-    <div class="home-top">
-      <img src="./img/logo.png" alt="logo" class="home-top-logo">
-      <div class="home-top-right">
-        <input type="search" name="search" id="header-search">
-        <img src="./img/setting.png" alt="扩展" class="home-top-setting">
+<body class="index-body">
+  <div class="container-fluid">
+    
+    <!-- 标题 -->
+    <section class="index-section-topic">
+      <div>Youthol</div>
+      <div>青春在线 - 山东理工大学第一门户网站</div>
+    </section>
+
+    <!-- 进入网站按钮 -->
+    <section class="index-section-btn">
+      <a href="./home.html">
+        <button>进入网站</button>
+      </a>
+    </section>
+
+    <!-- 卡片 -->
+    <section class="index-section-card" role="tabpanel">
+      <nav class="nav" role="tablist">
+        <a href="#tabs-1" data-toggle="tab" class="active">肆式青春</a>
+        <a href="#tabs-2" data-toggle="tab">小日历</a>
+        <a href="#tabs-3" data-toggle="tab">关注我们</a>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div id="tabs-1" role="tabpanel" class="tab-pane fade show active">
+          <p class="index-section-card-tabs-1-content">
+            <!-- 内容 -->
+            活着就是为了改变世界，难道还有其他原因吗？
+          </p>
+          <div class="index-section-card-tabs-1-auther">
+            <!-- 作者 -->
+            ——史蒂夫·乔布斯
+          </div>
+        </div>
+        <div id="tabs-2" role="tabpanel" class="tab-pane fade">
+          <div>
+            <!-- 日历相关 -->
+          </div>
+        </div>
+        <div id="tabs-3" role="tabpanel" class="tab-pane fade">
+          <div>
+            <img src="./img/webo.png" alt="微博">
+            <span>微博</span>
+          </div>
+          <div>
+            <img src="./img/QQzone.png" alt="QQ空间">
+            <span>QQ空间</span>
+          </div>
+          <div>
+            <img src="./img/wechat.png" alt="微信">
+            <span>微信</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 背景切换 -->
+    <section class="swiper-container index-section-bg">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide index-bg-full" style="background-image: url(./img/index_background1.png)">
+          <a href="javascript:void(0);"></a>
+        </div>
+        <div class="swiper-slide index-bg-full" style="background-image: url(./img/index_background2.png)">
+          <a href="javascript:void(0);"></a>
+        </div>
+        <div class="swiper-slide index-bg-full" style="background-image: url(./img/index_background3.png)">
+          <a href="javascript:void(0);"></a>
+        </div>
+        <div class="swiper-slide index-bg-full" style="background-image: url(./img/index_background4.png)">
+          <a href="javascript:void(0);"></a>
+        </div>
+        <div class="swiper-slide index-bg-full" style="background-image: url(./img/index_background2.png)">
+          <a href="javascript:void(0);"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 背景信息 -->
+    <div class="index-section-bg-info">
+      <p>背景作品来自：
+        <span>
+          <!-- 作者 -->
+          董骁
+        </span>
+      </p>
+      <div class="index-section-bg-change">
+        <img src="./img/index-left-arrow.png" alt="箭头" class="index-bg-prev">
+        <img src="./img/index-right-arrow.png" alt="箭头" class="index-bg-next">
       </div>
     </div>
-    <nav></nav>
-  </header>
-
-  <!-- 主体内容 -->
-  <section></section>
-
-  <!-- 底部版权 -->
-  <footer></footer>
+  </div>
 
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/swiper.min.js"></script>

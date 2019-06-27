@@ -9,7 +9,7 @@
 }
 
 /* 标题部分 */
-.entry-section-topic {
+.index-section-topic {
   position: relative;
   margin: 0 auto;
   padding-top: 60px;
@@ -19,7 +19,7 @@
   z-index: 99;
 }
 
-.entry-section-topic div:first-child {
+.index-section-topic div:first-child {
   font-size: 106px;
   letter-spacing: 6px;
   font-weight: 200;
@@ -34,13 +34,13 @@
   height: 100%;
 }
 
-.bg-full {
+.index-bg-full {
   opacity: 0.8;
   background-size: cover;
   background-position: center center;
 }
 
-.bg-full::after {
+.index-bg-full::after {
   content: '';
   position: absolute;
   top: 0;
@@ -50,7 +50,7 @@
   background: rgba(0, 0, 0, .2);
 }
 
-.entry-section-bg-info {
+.index-section-bg-info {
   color: #fff;
   font-size: 12px;
   position: fixed;
@@ -60,32 +60,32 @@
   z-index: 100;
 }
 
-.entry-section-bg-info p {
+.index-section-bg-info p {
   display: inline-block;
   line-height: 30px;
 }
 
-.entry-section-bg-change {
+.index-section-bg-change {
   display: inline-block;
   margin-left: 8px;
   vertical-align: top;
 }
 
-.entry-section-bg-change img {
+.index-section-bg-change img {
   width: 26px;
   height: 26px;
   cursor: pointer;
 }
 
 /* 进入网站按钮 */
-.entry-section-btn {
+.index-section-btn {
   position: relative;
   z-index: 99;
   padding-top: 40px;
   text-align: center;
 }
 
-.entry-section-btn button {
+.index-section-btn button {
   color: #fff;
   font-family: 'PingFang SC ExtraLight';
   background: rgba(0, 0, 0, 0);
@@ -97,7 +97,7 @@
 }
 
 /* 功能卡片 */
-.entry-section-card {
+.index-section-card {
   position: relative;
   z-index: 99;
   width: 480px;
@@ -107,14 +107,14 @@
   overflow: hidden;
 }
 
-.entry-section-card nav {
+.index-section-card nav {
   height: 60px;
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
 }
 
-.entry-section-card nav a {
+.index-section-card nav a {
   width: 160px;
   color: #fff;
   text-align: center;
@@ -123,13 +123,13 @@
   text-decoration: none;
 }
 
-.entry-section-card nav .active {
+.index-section-card nav .active {
   color: #000;
   background: rgba(255, 255, 255, .8);
 }
 
 /* 标签内容 */
-.entry-section-card .tab-content {
+.index-section-card .tab-content {
   width: 100%;
   height: 240px;
   background: rgba(255, 255, 255, .8);
@@ -142,7 +142,7 @@
   padding: 30px;
 }
 
-.entry-section-card-tabs-1-content {
+.index-section-card-tabs-1-content {
   padding-top: 15px;
   width: 420px;
   margin: 0;
@@ -150,7 +150,7 @@
 }
 
 
-.entry-section-card-tabs-1-auther {
+.index-section-card-tabs-1-auther {
   height: 63px;
   line-height: 63px;
   text-align: right;
@@ -177,13 +177,13 @@
 
 .home-top {
   height: 64px;
-  padding: 4px 16px;
 }
 
+
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .home-top {
-    width: ;
+    width: 578px;
     margin: 0 auto;
   }
 }
@@ -199,7 +199,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .home-top {
-    width: ;
+    /* width: 991px; */
     margin: 0 auto;
   }
 }
@@ -212,19 +212,122 @@
   }
 }
 
+#logo {
+  display: inline-block;
+  height: 64px;
+  line-height: 64px;
+}
+
 .home-top-logo {
   height: 40px;
 }
 
 .home-top-right {
   float: right;
+  line-height: 64px;
 }
 
 .home-top-right input {
-  border: 1px solid ;
+  width: 230px;
+  height: 32px;
+  border: 1px solid rgba(151, 151, 151, 1);
+  padding: 4px 0 4px 6px;
+  border-radius: 8px;
+  vertical-align: middle;
+  font-family: 'PingFang SC ExtraLight';
 }
 
 .home-top-setting {
   width: 32px;
   height: 32px;
+  margin-left: 5px;
+}
+
+.home-nav {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.home-nav .nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.home-nav-item {
+  background-color: rgba(0, 60, 164, 0.5);
+  height: 100%;
+  width: 300px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: background-color .26s;
+}
+
+.home-nav-item a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .26s;
+}
+
+.home-nav-item:hover {
+  background-color: #fff;
+}
+
+.home-nav-item:hover a {
+  color: #1E50AE;
+}
+
+.home-nav .nav li {
+  list-style: none;
+}
+
+.nav-down {
+  position: relative;
+  visibility: hidden;
+  z-index: 99;
+  width: 100%;
+}
+
+.home-nav-item:hover .nav-down {
+  visibility: visible;
+}
+
+.home-nav-item:hover .nav-down li {
+  background-color: rgba(0, 60, 164, 0.5);
+  position: relative;
+  transition: background-color .26s;
+}
+
+.home-nav-item:hover .nav-down li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .26s;
+}
+
+.home-nav-item:hover .nav-down li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 1px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.89)
+}
+
+.home-nav-item:hover .nav-down li:last-child::after {
+  display: none;
+}
+
+.home-nav-item:hover .nav-down li:hover {
+  background-color: #fff;
+}
+
+.home-nav-item:hover .nav-down li:hover a {
+  color: #1E50AE;
 }

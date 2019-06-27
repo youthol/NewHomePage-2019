@@ -46,7 +46,7 @@ var mySwiper = new Swiper(".swiper-container", {
     delay: 4000
   },
   navigation: {
-    nextEl: ".entry-bg-next",
-    prevEl: ".entry-bg-prev"
+    nextEl: ".index-bg-next",
+    prevEl: ".index-bg-prev"
   }
 });
