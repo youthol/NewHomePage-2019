@@ -39,12 +39,14 @@ var initInfo = {
 
 var indexSwiper = new Swiper("#index-banner", {
   autoplay: true, //可选选项，自动滑动
-  loop : true,
+  loop: true,
   effect: "fade",
   speed: 600,
   autoplay: {
-    delay: 4000
+    delay: 4000,
+    disableOnInteraction: false
   },
+  disableOnInteraction: false,
   navigation: {
     nextEl: ".index-bg-next",
     prevEl: ".index-bg-prev"
@@ -56,7 +58,8 @@ var homeSwiper = new Swiper("#home-banner-main", {
   loop: true,
   speed: 600,
   autoplay: {
-    delay: 4000
+    delay: 4000,
+    disableOnInteraction: false
   },
   // 如果需要分页器
   pagination: {
@@ -75,6 +78,17 @@ var homeSwiper = new Swiper("#home-banner-small", {
   loop: true,
   speed: 600,
   autoplay: {
-    delay: 4000
+    delay: 4000,
+    disableOnInteraction: false
   }
 });
+
+var oSearch = document.getElementById("header-search");
+
+oSearch.onfocus = function () {
+  oSearch.style.width = 200 + 'px';
+}
+
+oSearch.onblur = function() {
+  oSearch.style.width = 160 + "px";
+};

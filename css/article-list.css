@@ -1,0 +1,97 @@
+
+
+.main-frame {
+  background: -webkit-linear-gradient(#229AFF, #FFF); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#229AFF, #FFF); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#229AFF, #FFF); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#229AFF, #FFF); /* 标准的语法 */
+}
+
+.main-container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto 28px auto;
+}
+
+.main-nav-container {
+  padding-top: 39px;
+  width: 100%;
+}
+
+.main-nav {
+  list-style-type: none;
+  overflow: hidden;
+  color: #FFF;
+  background: rgba(255,255,255,0);
+  padding-left: 0;
+}
+
+.breadcrumb-item {
+  color: #FFF !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+  color: #FFF;
+}
+
+.main-nav li {
+  float: left;
+}
+
+.main-box {
+  border-radius:37px;
+  background:rgba(255,255,255,1);
+  width: 100%;
+  margin-top: 33px;
+}
+
+.main-box-tab {
+  display: flex;
+  width: 70%;
+  flex-flow: inherit;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height:22px;
+  padding-top: 12px;
+}
+
+.main-tab-hr {
+  width: 70%;
+  margin: 1rem auto;
+  border-top: 1px dashed rgba(0,0,0,1);
+  border-bottom: 1px dashed rgba(0,0,0,1);
+}
+
+.main-list-container {
+  display: flex;
+  flex-flow: inherit;
+  font-size: 14px;
+  line-height:22px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main-list-container div ul{
+  list-style-type: none;
+}
+
+.main-list-left ul li a{
+  color: #000;
+}
+
+.pagination {
+  padding-bottom: 29px;
+}
+
+.page-item {
+  margin: 0 4px 0 4px;
+}
+
+.page-link {
+  border-radius: 6px !important;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  line-height: 14px;
+}

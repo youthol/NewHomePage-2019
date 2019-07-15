@@ -1,0 +1,88 @@
+.main-frame {
+  background: -webkit-linear-gradient(#229AFF, #FFF); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#229AFF, #FFF); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#229AFF, #FFF); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#229AFF, #FFF); /* 标准的语法 */
+}
+
+.main-container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto 28px auto;
+}
+
+.main-nav-container {
+  padding-top: 39px;
+  width: 100%;
+}
+
+.main-nav {
+  list-style-type: none;
+  overflow: hidden;
+  color: #FFF;
+  background: rgba(255,255,255,0);
+  padding-left: 0;
+}
+
+.breadcrumb-item {
+  color: #FFF !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+  color: #FFF;
+}
+
+.main-nav li {
+  float: left;
+}
+
+.main-box {
+  width: 100%;
+  margin-top: 33px;
+}
+
+.main-title {
+  text-align: center;
+  font-size:30px;
+  font-family:Microsoft YaHei;
+  font-weight:bold;
+  line-height:23px;
+  color:rgba(255,255,255,1);
+  margin-bottom: 27px;
+}
+
+.main-detail {
+  text-align: center;
+  font-size:14px;
+  font-family:Microsoft YaHei;
+  font-weight:bold;
+  line-height:36px;
+  color:rgba(255,255,255,1);
+  margin-bottom: 42px;
+}
+
+.main-article-bg {
+  background:rgba(255,255,255,1);
+  border-radius:37px;
+}
+
+.main-article-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 62px 0 37px 0px;
+  line-height: 30px;                   
+}
+
+.main-article-img {
+  display: block;
+  width: 600px;
+  height: 450px;
+  margin: 10px auto;
+}
+
+.main-article-editor {
+  text-align: right;
+  line-height:45px;
+  font-size: 20px;
+}
