@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/swiper.min.css" />
   <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/nav.css">
   <link rel="stylesheet" href="./css/article-list.css">
   <script src="./js/jquery-3.0.0.min.js"></script>
 </head>
@@ -27,7 +28,7 @@
         <img src="./img/logo.png" alt="logo" class="home-top-logo">
       </a>
       <div class="home-top-right">
-        <input type="search" name="search" id="header-search" class="home-top-search">
+        <input type="search" name="search" id="header-search">
         <img src="./img/setting.png" alt="扩展" class="home-top-setting">
       </div>
     </div>
@@ -35,9 +36,6 @@
       <ul class="nav" role="tablist">
         <li class="home-nav-item">
           <a href="">学校首页</a>
-          <ul class="nav-down">
-  
-          </ul>
         </li>
         <li class="home-nav-item">
           <a href="">学工频道</a>
@@ -176,8 +174,8 @@
 
         <!-- BS4 分页栏 -->
         <ul class="pagination justify-content-center">
-          <li class="page-item"><a href="#" class="page-link"><</a></li>
-          <li class="page-item"><a href="#" class="page-link">1</a></li>
+          <li class="page-item"><a href="#" class="page-link">
+              <</a> </li> <li class="page-item"><a href="#" class="page-link">1</a></li>
           <li class="page-item  active"><a href="#" class="page-link">2</a></li>
           <li class="page-item"><a href="#" class="page-link">3</a></li>
           <li class="page-item"><a href="#" class="page-link">4</a></li>
@@ -192,6 +190,69 @@
       </div>
     </div>
   </section>
+
+  <footer>
+    <ul class="home-footer-info">
+      <li class="home-footer-aboutSite">
+        <h5>关于本站</h5>
+        <ul>
+          <li class="home-footer-list"><a href="">管理登陆</a></li>
+          <li class="home-footer-list"><a href="">全站地图</a></li>
+          <li class="home-footer-list"><a href="">更新日志</a></li>
+        </ul>
+      </li>
+      <li class="home-footer-youthTeam">
+        <h5>青春团队</h5>
+        <ul>
+          <li class="home-footer-list"><a href="">加入我们</a></li>
+          <li class="home-footer-list"><a href="">关于我们</a></li>
+        </ul>
+      </li>
+      <li class="home-footer-aboutUs">
+        <h5>关注我们</h5>
+        <ul>
+          <li class="home-footer-account">
+            <img src="img/footer-weibo.png" alt="">
+            <img src="img/weibo.png" alt="" class="home-footer-weibo-QRcode">
+          </li>
+          <li class="home-footer-account">
+            <img src="img/footer-QQ.png" alt="">
+            <img src="img/QQzone.png" alt="" class="home-footer-QQ-QRcode">
+          </li>
+          <li class="home-footer-account">
+            <img src="img/footer-wechat.png" alt="">
+            <img src="img/wechat.png" alt="" class="home-footer-wechat-QRcode">
+          </li>
+        </ul>
+      </li>
+      <li class="home-footer-logo">
+        <a href="https://www.sdut.edu.cn/" target="_blank">
+          <img src="img/school-logo.png" alt="" class="home-footer-logo-school">
+        </a>
+        <img src="img/logo.png" alt="" class="home-footer-logo-youth">
+      </li>
+    </ul>
+    <div class="home-footer-friendLink">
+      <div class="home-footer-friendLink-title">友情链接</div>
+      <ul class="home-footer-friendLink-list">
+        <li><a href="">新闻网</a> </li>
+        <li><a href="">网上服务大厅</a> </li>
+        <li><a href="">山东理工大学图书馆</a> </li>
+        <li><a href="">后勤服务大厅</a></li>
+        <li><a href="">教务处</a></li>
+        <!-- 友情链接可在后台添加 -->
+      </ul>
+    </div>
+    <ul class="home-footer-copyright">
+      <li>山东省淄博市张店区新村西路266号</li>
+      <li>山东理工大学学生工作部（处）、武装部</li>
+      <li>邮编：255000</li>
+      <li>电话：0533-2786633</li>
+      <li>邮箱：youth@sdut.edu.cn</li>
+    </ul>
+  </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
