@@ -1,0 +1,112 @@
+.img-list-banner {
+  width: 100%;
+  height: 379px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .list_nav li {
+    font-size: 14px !important;
+  }
+  .list_hidden {
+    display: none !important;
+  }
+}
+
+.list_main {
+  background-image: url(../img/p9_bg.png);
+  background-size: cover;
+}
+
+.list_nav {
+  list-style: none;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.list_nav li {
+  display: inline-block;
+  text-align: center;
+  width: 72px;
+  height: 24px;
+  font-size: 18px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(44, 88, 182, 1);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.list_content_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.list_content_box_title {
+  width: 200px;
+  height: 51px;
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.list_content_box_img {
+  cursor: pointer;
+}
+
+.list_content_box_author {
+  width: 72px;
+  height: 16px;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  display: inline-block;
+}
+
+.list_content_box_time {
+  width: 67px;
+  height: 16px;
+  font-size: 12px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.list_pager {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_pager > ul > li {
+  cursor: pointer;
+  animation-iteration-count: 1;
+}
+
+.list_pager_num {
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  border-radius: 15%;
+}
+
+.list_hidden {
+  display: block;
+}

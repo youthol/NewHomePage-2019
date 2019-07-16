@@ -15,20 +15,25 @@
   <link rel="stylesheet" href="./css/swiper.min.css" />
   <link rel="stylesheet" href="./css/main.css" />
   <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/footer.css">
   <script src="./js/jquery-3.0.0.min.js"></script>
 </head>
 
-<body>
+
+<!-- data-img用来判断页面顶部样式是否需要修改 -->
+<!-- data-position用来判断导航栏是否需要特殊定位 -->
+
+<body data-img="false" data-position="false">
 
   <!-- 导航栏 -->
-  <header class="container-fluid home-header">
+  <header class="container-fluid">
     <div class="home-top">
       <a href="javascript:void(0);" id="logo">
         <img src="./img/logo.png" alt="logo" class="home-top-logo">
       </a>
       <div class="home-top-right">
-        <input type="search" name="search" id="header-search">
-        <img src="./img/setting.png" alt="扩展" class="home-top-setting">
+        <input type="search" name="search" id="header-search" placeholder="请输入关键词">
+        <img src="./img/setting-gray.png" alt="扩展" class="home-top-setting">
       </div>
     </div>
     <nav class="home-nav">
@@ -48,7 +53,7 @@
         <li class="home-nav-item">
           <a href="">思政园地</a>
           <ul class="nav-down">
-
+  
           </ul>
         </li>
         <li class="home-nav-item">
@@ -86,13 +91,13 @@
         <li class="home-nav-item">
           <a href="">易班</a>
           <ul class="nav-down">
-
+  
           </ul>
         </li>
         <li class="home-nav-item">
           <a href="">信息公开</a>
           <ul class="nav-down">
-
+  
           </ul>
         </li>
       </ul>
@@ -951,6 +956,7 @@
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="./js/swiper.min.js"></script>
   <script src="./js/main.js"></script>
+  <script src="./js/nav.js"></script>
 </body>
 
 </html>

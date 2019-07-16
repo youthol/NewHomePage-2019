@@ -37,6 +37,7 @@ var initInfo = {
   }
 };
 
+// 启动页背景轮播
 var indexSwiper = new Swiper("#index-banner", {
   autoplay: true, //可选选项，自动滑动
   loop: true,
@@ -53,6 +54,7 @@ var indexSwiper = new Swiper("#index-banner", {
   }
 });
 
+// 主页大banner轮播
 var homeSwiper = new Swiper("#home-banner-main", {
   autoplay: true, //可选选项，自动滑动
   loop: true,
@@ -73,6 +75,7 @@ var homeSwiper = new Swiper("#home-banner-main", {
   }
 });
 
+// 主页副banner轮播
 var homeSwiper = new Swiper("#home-banner-small", {
   autoplay: true, //可选选项，自动滑动
   loop: true,
@@ -82,13 +85,3 @@ var homeSwiper = new Swiper("#home-banner-small", {
     disableOnInteraction: false
   }
 });
-
-var oSearch = document.getElementById("header-search");
-
-oSearch.onfocus = function () {
-  oSearch.style.width = 200 + 'px';
-}
-
-oSearch.onblur = function() {
-  oSearch.style.width = 160 + "px";
-};

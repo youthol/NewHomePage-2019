@@ -16,20 +16,21 @@
   <link rel="stylesheet" href="./css/swiper.min.css" />
   <link rel="stylesheet" href="./css/main.css" />
   <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/article-list.css">
   <script src="./js/jquery-3.0.0.min.js"></script>
 </head>
 
-<body>
+<body data-img="false" data-position="false">
   <!-- 导航栏 -->
-  <header class="container-fluid home-header">
+  <header class="container-fluid">
     <div class="home-top">
       <a href="javascript:void(0);" id="logo">
         <img src="./img/logo.png" alt="logo" class="home-top-logo">
       </a>
       <div class="home-top-right">
-        <input type="search" name="search" id="header-search">
-        <img src="./img/setting.png" alt="扩展" class="home-top-setting">
+        <input type="search" name="search" id="header-search" placeholder="请输入关键词">
+        <img src="./img/setting-gray.png" alt="扩展" class="home-top-setting">
       </div>
     </div>
     <nav class="home-nav">
@@ -49,7 +50,7 @@
         <li class="home-nav-item">
           <a href="">思政园地</a>
           <ul class="nav-down">
-  
+
           </ul>
         </li>
         <li class="home-nav-item">
@@ -87,13 +88,13 @@
         <li class="home-nav-item">
           <a href="">易班</a>
           <ul class="nav-down">
-  
+
           </ul>
         </li>
         <li class="home-nav-item">
           <a href="">信息公开</a>
           <ul class="nav-down">
-  
+
           </ul>
         </li>
       </ul>
@@ -174,9 +175,9 @@
 
         <!-- BS4 分页栏 -->
         <ul class="pagination justify-content-center">
-          <li class="page-item"><a href="#" class="page-link">
-              <</a> </li> <li class="page-item"><a href="#" class="page-link">1</a></li>
-          <li class="page-item  active"><a href="#" class="page-link">2</a></li>
+          <li class="page-item"><a href="#" class="page-link">&lt;</a></li>
+          <li class="page-item  active"><a href="#" class="page-link">1</a></li>
+          <li class="page-item"><a href="#" class="page-link">2</a></li>
           <li class="page-item"><a href="#" class="page-link">3</a></li>
           <li class="page-item"><a href="#" class="page-link">4</a></li>
           <li class="page-item"><a href="#" class="page-link">5</a></li>
@@ -184,7 +185,7 @@
           <li class="page-item"><a href="#" class="page-link">7</a></li>
           <li class="page-item"><a href="#" class="page-link">8</a></li>
           <li class="page-item"><a href="#" class="page-link">9</a></li>
-          <li class="page-item"><a href="#" class="page-link">></a></li>
+          <li class="page-item"><a href="#" class="page-link">&gt;</a></li>
         </ul>
 
       </div>
@@ -252,7 +253,7 @@
     </ul>
   </footer>
 
-  <script src="./js/main.js"></script>
+  <script src="./js/nav.js"></script>
 </body>
 
 </html>

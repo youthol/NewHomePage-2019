@@ -4,6 +4,24 @@
 }
 
 
+/* 需要定位的特殊样式导航栏start */
+.home-top-position {
+  position: absolute;
+  top: 0;
+}
+
+.home-top-input {
+  color: #fff;
+  border: 1px solid #fff !important;
+}
+
+.home-top-input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/* 需要定位的特殊样式导航栏end */
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
 
@@ -64,6 +82,7 @@
   vertical-align: middle;
   font-family: 'PingFang SC ExtraLight';
   transition: width .3s;
+  background-color: transparent;
 }
 
 .home-top-setting {
