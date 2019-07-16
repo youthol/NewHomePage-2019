@@ -1,8 +1,24 @@
+@font-face {
+  font-family: 'FZdaHei';
+  src: url(../font/FZDaHei-B02.ttf);
+}
+
 .img-list-banner {
   width: 100%;
   height: 379px;
   background-size: cover;
   background-position: 100% 100%;
+}
+
+.img-list-banner h1 {
+  padding: 193px 0 96px 27.152%;
+  font-size: 62px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-family: "FZDaHei";
+  line-height: 71px;
+  text-shadow: rgb(0, 0, 0, 0.16) 0 3px 6px;
+  opacity: 1;
 }
 
 @media screen and (max-width: 750px) {

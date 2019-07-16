@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'FZdaHei';
+  src: url(../font/FZDaHei-B02.ttf);
+}
+
+.img-list-banner {
+  width: 100%;
+  height: 379px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.img-list-banner h1 {
+  position: absolute;
+  top: 193px;
+  left: 27.152%;
+  opacity: 1;
+}
+
+.img-list-banner h1 img {
+  width: 285px;
+  height: 70px;
+}
+
+.content .tab_box {
+  position: relative;
+  padding: 0 18.75% 0 18.75%;
+}
+
+.content .tab_box .nav-pills .nav-link.active {
+  background-color: rgba(44, 88, 182, 0.1);
+  color: #2C58B6;
+}
+
+.content .tab_box ul li a {
+  font-size: 18px;
+  color: #2C58B6;
+  height: 56px;
+  line-height: 40px;
+}
+
+.content .tab_box ul {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.content .tab_box .nav-item:nth-child(n+2) {
+  margin-left: 87px;
+}
+
+.content .tab_content {
+  width: 1000px;
+  /* height: 600px; */
+  margin: 0 auto;
+  padding: 20px 60px;
+}
+
+.tab_content_header {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  border-bottom: 1px solid #333;
+}
+
+.tab_content_title {
+  float: left;
+  padding-left: 19px;
+}
+
+.tab_content_date {
+  float: right;
+  padding-right: 128px;
+}
+
+.tab_content_list li {
+  list-style: none;
+  color: rgb(100, 100, 100);
+  width: 96%;
+  height: 50px;
+  padding: 10px 0;
+  margin: 0 auto;
+  line-height: 30px;
+  border-bottom: 1px solid rgba(129, 129, 129, 0.493);
+}
+
+.tab_content_list li span {
+  float: left;
+  width: 550px;
+  /* 溢出文字省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tab_content_list li time {
+  float: right;
+  padding-right: 66px;
+}

@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 /* 导航部分 */
 .home-top {
   height: 64px;
@@ -119,6 +126,9 @@
 }
 
 .home-nav-item a {
+  display: block;
+  widows: 100%;
+  height: 100%;
   color: #fff;
   text-decoration: none;
   transition: color .26s;
