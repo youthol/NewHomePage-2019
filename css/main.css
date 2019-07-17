@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'PingFang SC ExtraLight';
-  src: url(../font/PingFang-SC-ExtraLight.otf);
-}
-
 
 /* 启动页 */
 
@@ -18,7 +13,6 @@
   padding-top: 60px;
   color: #fff;
   text-align: center;
-  font-family: 'PingFang SC ExtraLight';
   z-index: 99;
 }
 
@@ -91,7 +85,6 @@
 
 .index-section-btn button {
   color: #fff;
-  font-family: 'PingFang SC ExtraLight';
   background: rgba(0, 0, 0, 0);
   width: 110px;
   height: 45px;
@@ -113,7 +106,6 @@
   width: 480px;
   margin: 0 auto;
   padding-top: 46px;
-  font-family: 'PingFang SC ExtraLight';
   overflow: hidden;
 }
 

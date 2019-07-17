@@ -5,6 +5,7 @@
 
 .img-list-banner {
   width: 100%;
+  min-width: 1200px;
   height: 379px;
   background-size: cover;
   background-position: 100% 100%;
