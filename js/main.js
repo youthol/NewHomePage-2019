@@ -85,3 +85,14 @@ var homeSwiper = new Swiper("#home-banner-small", {
     disableOnInteraction: false
   }
 });
+
+// 主页长轮播
+var homeSwiper = new Swiper("#home-banner-long", {
+  autoplay: true, //可选选项，自动滑动
+  loop: true,
+  speed: 600,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false
+  }
+});
